@@ -25,7 +25,7 @@ const
   errCannotReturnExpr = "current routine cannot return an expression"
   errGenericLambdaNotAllowed = "A nested proc can have generic parameters only when " &
     "it is used as an operand to another routine and the types " &
-    "of the generic paramers can be inferred from the expected signature."
+    "of the generic parameters can be inferred from the expected signature."
   errCannotInferTypeOfTheLiteral = "cannot infer the type of the $1"
   errCannotInferReturnType = "cannot infer the return type of '$1'"
   errCannotInferStaticParam = "cannot infer the value of the static param '$1'"
